@@ -1,0 +1,10 @@
+name: whowithwhom
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - pulp
+  - pip
+  # Having trouble with the graphviz conda package.
+  - pip:
+    - graphviz
